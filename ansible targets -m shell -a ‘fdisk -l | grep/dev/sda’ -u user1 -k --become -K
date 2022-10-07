@@ -1,0 +1,1 @@
+ansible targets -m shell -a ‘fdisk -l | grep /dev/sda’ -u user1 -k --become -K
